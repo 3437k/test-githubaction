@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 
+// https://nextjs.org/docs/app/api-reference/next-config-js/assetPrefix
 const isProduction = process.env.NODE_ENV === "production";
-const repoName = isProduction ? "/test-githubaction" : "";
 
 const nextConfig = {
   output: "export",
-  assetPrefix: repoName,
+  assetPrefix: isProduction ? "/test-githubaction" : undefined,
 };
 
 module.exports = nextConfig;
