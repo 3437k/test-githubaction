@@ -1,6 +1,6 @@
 # 깃허브 정적페이지 만들기
 
-[정적 페이지](https://khj3437.github.io/test-githubaction/)
+https://3437k.github.io/test-githubaction
 
 
 ### Page 설정 
